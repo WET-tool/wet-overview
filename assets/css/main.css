@@ -1,0 +1,28 @@
+--- 
+--- 
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+}
+
+.jumbotron {
+    padding: 75px 25px;
+    height: 85vh;
+    min-height: 85vh;
+    background-image: url('{{ site.baseurl }}/assets/images/dam-fade-bg-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container-fluid {
+    padding: 50px 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
