@@ -8,10 +8,12 @@ body {
 
 .jumbotron {
     padding: 75px 25px;
-    height: 100vh;
-    min-height: 100vh;
-    background-image: url('{{ site.baseurl }}/assets/images/dam-fade-bg.jpg');
+    height: 85vh;
+    min-height: 85vh;
+    background-image: url('{{ site.baseurl }}/assets/images/dam-fade-bg-1.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .container-fluid {
