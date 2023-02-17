@@ -1,8 +1,15 @@
 --- 
 --- 
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+}
 
-.container-fluid .landing {
+.jumbotron {
     padding: 75px 25px;
+    height: 100vh;
+    min-height: 100vh;
     background-image: url('{{ site.baseurl }}/assets/images/dam-fade-bg.jpg');
     background-size: cover;
 }
