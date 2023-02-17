@@ -1,0 +1,19 @@
+--- 
+--- 
+
+.container-fluid .landing {
+    padding: 75px 25px;
+    background-image: url('{{ site.baseurl }}/assets/images/dam-fade-bg.jpg');
+    background-size: cover;
+}
+
+.container-fluid {
+    padding: 50px 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
