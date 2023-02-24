@@ -16,12 +16,17 @@
     <link rel="stylesheet" href='{{ site.baseurl }}/assets/css/main.css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+    </script>
 </head>
 
 <body>
     {{ content }}
     {% include footer.html %}
-    <script>
+    <!-- <script>
         // Selecting the iframe element
         var frame = document.getElementById("Iframe");
 
@@ -41,7 +46,7 @@
                 frame.contentWindow.document.body.scrollWidth + 'px';
 
         }
-    </script>
+    </script> -->
 </body>
 
 </html>
